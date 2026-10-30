@@ -6,6 +6,7 @@ A lightweight image dehazing network for underground coal mine scenes.
 
 This repository provides the implementation of CGMRNet for enhancing underground images degraded by dust and mist.
 
+![CGMRNet architecture](imgs/CGMRNet.png)
 ## Environment and Dependencies
 
 CGMRNet is implemented using PyTorch. The following Python packages are required:
@@ -71,3 +72,15 @@ tensorboard --logdir tblogdir
 ## Dataset
 
 The IMDITE dataset is available upon request from the corresponding author.
+
+![IMDITE Datasets](imgs/IMDITE.png)
+
+## Visual Results
+
+We present the enhancement results on real-world underground images.
+
+![Visual Results](imgs/Results.png)
+
+In addition, we conducted generalization tests of our network on O-HAZE, I-HAZE, Dense-Haze, and NH-HAZE.
+
+![Generalization Results](imgs/generalization_Results.png)
